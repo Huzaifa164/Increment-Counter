@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #30356e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.counter {
+    font-size: 50px;
+    color: #ffb321;
+}
+
+.counter-container > span {
+    font-size: 20px;
+}
